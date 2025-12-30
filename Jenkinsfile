@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo '正在克隆代码仓库...'
                 git branch: 'main',
-                    url: 'https://github.com/yourname/simple-c-project.git'
+                    url: 'https://github.com/liule-yl/simple-c-project.git'
             }
         }
         
